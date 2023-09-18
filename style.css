@@ -9,6 +9,7 @@
   font-family: "Arima Madurai", cursive;
   padding: 0;
   margin: 0;
+  overflow: hidden;
 }
 
 /* Styling for the main container */
