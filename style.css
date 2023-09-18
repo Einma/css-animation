@@ -24,17 +24,9 @@
   gap: 60px;
 }
 
-.text-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-
 /* Styling the "man" element */
 .man {
-  background-image: url(./sprites/walk-sequence.svg); /* Setting a background image */
+  background-image: url(./sprites/walk-sequence-upgraded.svg); /* Setting a background image */
   background-size: auto 100%;
   width: 100px;
   height: 125px;
@@ -83,3 +75,9 @@
   }
 }
 
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
