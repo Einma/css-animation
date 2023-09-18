@@ -32,13 +32,12 @@
   height: 125px;
 
   /* Animation Related */
-  animation-name: walk; 
+  animation-name: walk;
   animation-timing-function: steps(8);
   animation-iteration-count: infinite; /* Infinite animation loop */
   animation-duration: 1s;
   animation-delay: -0.5s;
 }
-
 
 /* Keyframes animation definition for "walk" animation */
 @keyframes walk {
@@ -67,5 +66,11 @@
   }
   100% {
     transform: translateX(110vw);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .animation-container {
+    animation-duration: 3s;
   }
 }
